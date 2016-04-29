@@ -1,2 +1,2 @@
 # webpack
-webpack training
+webpack training to understand the system
