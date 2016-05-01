@@ -1,0 +1,28 @@
+{ 
+  "menu": [ 
+      {
+          "title": "LE COTE LUMINEUX", 
+          "action":"page1.html"
+      }, 
+	  {
+          "title": "LE COTE OBSCUR", 
+          "action": "page2.html"
+      },
+      {
+          "title": "L'EMPIRE", 
+          "action": "page3.html"
+      }, 
+      {
+          "title": "LES DROIDES",
+          "action": "page4.html"
+      },
+	  {
+          "title": "LES EWOKS",
+          "action": "page5.html"
+      },
+	  {
+          "title": "JABBA LE HUTT",
+          "action": "page6.html"
+      }
+   ] 
+} 
