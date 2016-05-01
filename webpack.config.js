@@ -4,7 +4,9 @@ var path = require('path'),
 	ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  entry: ['./src/assets/js/main'], // .js after index is optional
+  entry: [
+  './src/assets/js/main'
+  ], // .js after index is optional
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'assets/js/bundle.js'
@@ -14,6 +16,8 @@ module.exports = {
       compressor: {
         warnings: false,
       },
+	  sourceMap: false,
+      mangle: false
     }),
 	new webpack.optimize.OccurenceOrderPlugin(),
 	new HtmlWebpackPlugin({
