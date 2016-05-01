@@ -1,0 +1,179 @@
+/* *******************************
+*	- FILE RESPONSIVE.css - 	 *
+*	- version : 1.0	- 			 *	
+*	- technology => mobile first *
+******************************* */
+
+/* MEDIA FOR MOBILE  */
+
+@media (min-width: 320px) {
+
+
+	/* box game */
+	
+	.main-container .box-game {
+
+		padding: 35px;
+		
+	}
+	
+	.main-container .box-game .box-text  {
+	
+		padding-right: 0;
+		width: 100%;
+		
+	}
+	
+	.main-container .box-game .box-img  {
+		
+		display: none;
+		
+	}
+	
+	/* box robot */
+	
+	.main-container .box-robot {
+	
+		padding: 35px;
+		text-align: center;
+		
+	}
+	
+
+	.main-container .box-robot  .box-img img{
+	
+		float: none;
+		
+	}
+	
+	.main-container .box-robot .box-text {
+	
+		clear: both;
+		text-align: justify;
+		
+	}
+	
+	/* footer */	
+	
+	.main-container .box-footer .footer-data.data1, 
+	.main-container .box-footer .footer-data.data2 {
+	
+		width: 50%;
+	}
+	
+	.main-container .box-footer .footer-data.data3 {
+	
+		width: 100%;
+
+		
+	}
+	
+	.main-container .box-footer .footer-data.data3 p {
+		
+		margin-bottom: 0;
+	
+	}
+	
+	.main-container .box-footer .footer-data.data3 p,
+	.main-container .box-footer .footer-data.data3 ul {
+	
+		display: inline-block;
+		
+	}
+	
+	
+	.main-container .box-footer .footer-data.data3 ul > li {
+	
+		display: inline-block;
+		margin-left: 20px;
+	}
+}
+
+
+/* MEDIA FOR TABLET  */
+
+@media (min-width: 768px) {
+
+
+	/* box game */
+	
+	.main-container .box-game {
+
+		padding: 35px;
+		
+	}
+
+	.main-container .box-game .box-text  {
+	
+		padding-right: 70px;
+		width: 50%;
+		
+	}
+
+
+	.main-container .box-game .box-img  {
+		
+		display: block;
+		
+	}
+	
+
+	/* box robot */
+	
+		
+	.main-container .box-robot {
+	
+		padding: 70px;
+		
+	}
+	
+	
+	.main-container .box-robot .box-img img{
+	
+		float: left;
+	
+	}
+
+	.main-container .box-robot .box-text {
+	
+		clear: none;
+		
+	}
+	
+	.main-container .box-footer .footer-data.data1, 
+	.main-container .box-footer .footer-data.data2,
+	.main-container .box-footer .footer-data.data3 {
+	
+		width: 33%;
+		
+	}
+	
+	.main-container .box-footer .footer-data.data3 p {
+		
+		margin-bottom: 20px;
+	
+	}
+	
+	.main-container .box-footer .footer-data.data3 p,
+	.main-container .box-footer .footer-data.data3 ul {
+	
+		display: block;
+		
+	}
+	
+	
+}
+
+
+/* MEDIA FOR MEDIUM-DESKTOP  */
+
+@media (min-width: 992px) {
+
+}
+
+
+/* MEDIA FOR LARGE DESKTOP  */
+
+@media (min-width: 1200px) {
+
+}
