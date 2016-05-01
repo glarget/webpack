@@ -17,7 +17,7 @@ module.exports = {
         warnings: false,
       },
 	  sourceMap: false,
-      mangle: false
+      mangle: true
     }),
 	new webpack.optimize.OccurenceOrderPlugin(),
 	new HtmlWebpackPlugin({
